@@ -1,0 +1,65 @@
+/* Загальні стилі для сторінки */
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Стилі для заголовка */
+header {
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #333;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+
+/* Секція \"Про мене\" */
+section {
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #4a90e2;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+/* Список навичок */
+ul {
+    padding-left: 20px;
+}
+
+ul li {
+    margin: 5px 0;
+}
+
+/* Список посилань */
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Футер */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    margin-top: 20px;
+}
