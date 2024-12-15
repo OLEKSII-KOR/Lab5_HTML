@@ -1,16 +1,16 @@
 /* Загальні стилі для сторінки */
 body {
     font-family: Arial, sans-serif;
-    color: #333;
-    background-color: #f4f4f9;
+    color: #f4f4f9; /* Світлий текст */
+    background-color: #121212; /* Темний фон */
     margin: 0;
     padding: 0;
 }
 
 /* Стилі для заголовка */
 header {
-    background-color: #4a90e2;
-    color: #fff;
+    background-color: #1f1f1f; /* Темно-сірий фон */
+    color: #ffa726; /* Помаранчевий текст */
     padding: 20px;
     text-align: center;
     border-bottom: 5px solid #333;
@@ -21,18 +21,18 @@ header h1 {
     margin: 0;
 }
 
-/* Секція \"Про мене\" */
+/* Секція "Про мене" */
 section {
     margin: 20px;
     padding: 15px;
-    border: 1px solid #ddd;
-    background-color: #fff;
+    border: 1px solid #333;
+    background-color: #1e1e1e; /* Темно-сірий фон */
     border-radius: 5px;
 }
 
 section h2 {
-    color: #4a90e2;
-    border-bottom: 2px solid #ddd;
+    color: #ffa726; /* Помаранчевий текст */
+    border-bottom: 2px solid #333;
     padding-bottom: 5px;
 }
 
@@ -43,23 +43,25 @@ ul {
 
 ul li {
     margin: 5px 0;
+    color: #cfcfcf; /* Світло-сірий текст */
 }
 
 /* Список посилань */
 a {
-    color: #4a90e2;
+    color: #64b5f6; /* Світло-синій текст */
     text-decoration: none;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #bbdefb; /* Блідо-синій при наведенні */
 }
 
 /* Футер */
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #333;
-    color: #fff;
+    background-color: #0d0d0d; /* Дуже темний фон */
+    color: #f4f4f9; /* Світлий текст */
     margin-top: 20px;
 }
